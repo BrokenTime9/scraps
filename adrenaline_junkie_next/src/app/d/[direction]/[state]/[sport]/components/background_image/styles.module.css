@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.img {
+  width: 50%;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.text {
+  width: 50%; /* Adjust as needed */
+}

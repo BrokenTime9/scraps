@@ -1,0 +1,27 @@
+.navb {
+  width: 100%;
+  height: fit-content;
+  padding: 2rem 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+
+  color: black;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+.links > a {
+  font-size: 1.4rem;
+}
+
+.logo {
+  font-size: 2rem;
+}

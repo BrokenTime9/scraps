@@ -1,0 +1,23 @@
+.buttonSmall {
+  border: 1px solid #fff;
+  font-weight: lighter;
+  border-radius: 20px;
+  padding: 7px;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* learn more hover */
+
+.buttonSmall:hover {
+  background-color: white;
+  color: black;
+}
+
+.buttonSmall {
+  position: relative;
+  top: 18.5rem;
+  left: 1.3rem;
+}

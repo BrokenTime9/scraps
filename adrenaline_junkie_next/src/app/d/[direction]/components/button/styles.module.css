@@ -1,0 +1,12 @@
+.buttonSmall {
+  padding: 7px;
+
+  font-size: 0.8rem;
+  font-weight: lighter;
+
+  border: 1px solid black;
+  border-radius: 20px;
+
+  color: black;
+  background: white;
+}

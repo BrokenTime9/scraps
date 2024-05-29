@@ -1,0 +1,63 @@
+.image {
+  height: 80vh;
+}
+/*                adding image */
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/Adrenaline_junkie/Images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 11vh;
+}
+
+/* -------------------image text----------------------- */
+
+.img-text h1 {
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  font-size: 55px;
+  color: #fff;
+  font-family: rounded-corners, sans-serif;
+}
+
+.img-text span {
+  color: rgb(220, 220, 220);
+}
+
+.img-text a {
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  left: 2px;
+  top: -10px;
+}
+
+/* learn more border */
+
+.img-text a {
+  border: 1px solid #fff;
+  font-weight: lighter;
+  border-radius: 20px;
+  padding: 7px;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  color: white;
+}
+
+/* learn more hover */
+
+.img-text a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* font awesome configure */
+
+.img-text a i {
+  text-align: center;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
